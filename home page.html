@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArcadeXperience</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+        }
+        header {
+            background-color: #1f1f1f;
+            color:  #fefefe;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        header h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+       
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #292929;
+            padding: 10px;
+        }
+        nav a {
+            color:white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: #ffc107;
+        }
+    
+        .hero {
+            background-image: url('photo1.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin: 0;
+            
+
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            color: #ff9800;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .card {
+            background-color: #1e1e1e;
+            border: 1px solid #424242;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 300px;
+            height: 50%;
+            
+            text-align: left;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 10px;
+            color: #ff9800;
+        }
+        .card p {
+            margin: 0 10px 10px;
+            color: #bdbdbd;
+        }
+        .card a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background-color: #ff5722;
+            color: white;
+            text-decoration: none;
+            border-radius: 0 0 8px 8px;
+        }
+        .card a:hover {
+            background-color: #e64a19;
+        }
+        footer {
+            background-color: #292929;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ArcadeXperience</h1>
+    </header>
+    <nav>
+        <a href="home page.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="news.html">News</a>
+        <a href="community.html">Community</a>
+    </nav>
+    <div class="hero">
+        <h2>Welcome to the Ultimate Gaming Experience</h2>
+        <p>Dive into the latest news, updates, and reviews on all things gaming.</p>
+        
+    </div>
+    <div class="content">
+        <h2>Featured Content</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="elden.png" alt="Game Image"width=>
+                <h3>Top Game of the Month</h3>
+                <p>Discover our top pick for this month packed with excitement.</p>
+                <a href="games.html">Learn More</a>
+            </div>
+            <div class="card">
+                <img src="logo.jpeg" alt="News Image">
+                <h3>Latest Gaming News</h3>
+                <p>Stay updated with the latest happenings in the gaming industry.</p>
+                <a href="news.html">Read More</a>
+            </div>
+            <div class="card">
+                <img src="community1.jpeg" alt="Community Image">
+                <h3>Join Our Community</h3>
+                <p>Connect with fellow gamers and share your experiences.</p>
+                <a href="community.html">Get Involved</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 ArcadeXperience. All rights reserved.
+    </footer>
+</body>
+</html>
